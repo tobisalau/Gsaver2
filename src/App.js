@@ -4,10 +4,14 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
-import { Ecommerce, Home, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
+import { Home, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
 import './App.css';
 
 import { useStateContext } from './contexts/ContextProvider';
+import Transactions from './pages/Transactions';
+import Chatbot from './pages/Chatbot';
+import Tips from './pages/Tips';
+import GetInTouch from './pages/GetInTouch';
 
 const App = () => {
   const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
@@ -89,6 +93,12 @@ const App = () => {
                 <Route path="/color-mapping" element={<ColorMapping />} />
                 <Route path="/pyramid" element={<Pyramid />} />
                 <Route path="/stacked" element={<Stacked />} />
+
+                {/* Gsaver */}
+                <Route path="/transactions" element={<Transactions />} />
+                <Route path="/chatbot" element={<Chatbot />} />
+                <Route path="/tips" element={<Tips />} />
+                <Route path="/Contact Us" element={<GetInTouch />} />
 
               </Routes>
             </div>

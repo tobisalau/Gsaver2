@@ -501,11 +501,11 @@ export const links = [
         icon: <BsKanban />,
       },
       {
-        name: 'Tips & Reccomendations',
+        name: 'Tips',
         icon: <FiEdit />,
       },
       {
-        name: 'Get in Touch',
+        name: 'Contact Us',
         icon: <BiColorFill />,
       },
     ],
