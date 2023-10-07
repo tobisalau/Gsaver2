@@ -4,6 +4,8 @@ import { GoPrimitiveDot } from 'react-icons/go';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
+import { Button as B, Card, CardActionArea, CardContent, CardHeader} from '@mui/material' ;
+
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
 import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
@@ -24,8 +26,9 @@ const Home = () => {
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
             <div>
-              <p className="font-bold text-gray-400">Files Scanned</p>
+              <p className="font-bold text-gray-400">Natwest</p>
               <p className="text-2xl">75%</p>
+              <p className="text-sm text-gray-400  mt-1">Savings</p>
             </div>
             <button
               type="button"
@@ -44,6 +47,14 @@ const Home = () => {
             />
           </div>
         </div>
+        <Card className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-no-repeat bg-cover bg-center'>
+          <CardActionArea>
+            <CardHeader>Account</CardHeader>
+            
+            <CardContent className='font-bold'>£215.03</CardContent>
+          </CardActionArea>
+          
+        </Card>
         <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
           {earningData.map((item) => (
             <div key={item.title} className="bg-white h-44 dark:text-gray-200 dark:bg-secondary-dark-bg md:w-56  p-4 pt-9 rounded-2xl ">
