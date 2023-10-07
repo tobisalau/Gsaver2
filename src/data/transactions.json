@@ -5,7 +5,8 @@
     "company": "Uniqlo",
     "description": "Clothing",
     "amount": "£40",
-    "direction": "out"
+    "direction": "out",
+    "imlink": "Uniqlo.png"
   },
   {
     "id": 2,

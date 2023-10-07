@@ -15,8 +15,9 @@ export const gridOrderImage = (props) => (
   <div>
     <img
       className="rounded-xl h-20 md:ml-3"
-      src={props.ProductImage}
+      src={props.imlink}
       alt="order-item"
+      caption={props.company}
     />
   </div>
 );
@@ -827,8 +828,8 @@ export const userProfileData = [
 export const ordersGrid = [
   {
     field: 'company',
-    headerText: 'Company',
-    //template: gridOrderImage,
+    //headerText: 'Company',
+    template: gridOrderImage,
     textAlign: 'Center',
     width: '120',
   },
@@ -1856,7 +1857,8 @@ export const transactions = [
     "company": "Uniqlo",
     "description": "Clothing",
     "amount": "£40",
-    "direction": "out"
+    "direction": "out",
+    "imlink": "/src/data/Uniqlo.png"
   },
   {
     "id": 2,
