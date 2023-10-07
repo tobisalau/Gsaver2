@@ -10,7 +10,7 @@ import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
 
-import Uniqlo from '../data/Uniqlo.png'
+import Uniqlo from '../data/Uniqlo2.png'
 import HM from '../data/HM.png'
 import Tesco from '../data/Tesco.png'
 import Odeon from '../data/Odeon.png'
@@ -25,7 +25,7 @@ import UEats from '../data/UEats.png'
 export const gridOrderImage = (props) => (
   <div>
     <img
-      className="rounded-xl h-20 md:ml-3"
+      className="rounded-xs w-20 md:ml-3 img-thumbnail"
       src={props.imlink}
       alt="order-item"
       caption={props.company}
