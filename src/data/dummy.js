@@ -459,7 +459,7 @@ export const employeesGrid = [
 
 export const links = [
   {
-    title: 'Dashboard',
+    title: 'Home',
     links: [
       // {
       //   name: 'ecommerce',
@@ -469,85 +469,85 @@ export const links = [
         name: 'home',
         icon: <FiShoppingBag />,
       },
+      {
+        name: 'Transactions',
+        icon: <AiOutlineCalendar />,
+      },
     ],
   },
 
+  // {
+  //   title: 'Pages',
+  //   links: [
+  //     {
+  //       name: 'orders',
+  //       icon: <AiOutlineShoppingCart />,
+  //     },
+  //     {
+  //       name: 'employees',
+  //       icon: <IoMdContacts />,
+  //     },
+  //     {
+  //       name: 'customers',
+  //       icon: <RiContactsLine />,
+  //     },
+  //   ],
+  // },
   {
-    title: 'Pages',
+    title: 'Help',
     links: [
       {
-        name: 'orders',
-        icon: <AiOutlineShoppingCart />,
-      },
-      {
-        name: 'employees',
-        icon: <IoMdContacts />,
-      },
-      {
-        name: 'customers',
-        icon: <RiContactsLine />,
-      },
-    ],
-  },
-  {
-    title: 'Apps',
-    links: [
-      {
-        name: 'calendar',
-        icon: <AiOutlineCalendar />,
-      },
-      {
-        name: 'kanban',
+        name: 'Chatbot',
         icon: <BsKanban />,
       },
       {
-        name: 'editor',
+        name: 'Tips & Reccomendations',
         icon: <FiEdit />,
       },
       {
-        name: 'color-picker',
+        name: 'Get in Touch',
         icon: <BiColorFill />,
       },
     ],
   },
-  {
-    title: 'Charts',
-    links: [
-      {
-        name: 'line',
-        icon: <AiOutlineStock />,
-      },
-      {
-        name: 'area',
-        icon: <AiOutlineAreaChart />,
-      },
+  // {
+  //   title: 'Charts',
+    // links: [
+    //   {
+    //     name: 'line',
+    //     icon: <AiOutlineStock />,
+    //   },
+    //   {
+    //     name: 'area',
+    //     icon: <AiOutlineAreaChart />,
+    //   },
 
-      {
-        name: 'bar',
-        icon: <AiOutlineBarChart />,
-      },
-      {
-        name: 'pie',
-        icon: <FiPieChart />,
-      },
-      {
-        name: 'financial',
-        icon: <RiStockLine />,
-      },
-      {
-        name: 'color-mapping',
-        icon: <BsBarChart />,
-      },
-      {
-        name: 'pyramid',
-        icon: <GiLouvrePyramid />,
-      },
-      {
-        name: 'stacked',
-        icon: <AiOutlineBarChart />,
-      },
-    ],
-  },
+    //   {
+    //     name: 'bar',
+    //     icon: <AiOutlineBarChart />,
+    //   },
+    //   {
+    //     name: 'pie',
+    //     icon: <FiPieChart />,
+    //   },
+    //   {
+    //     name: 'financial',
+    //     icon: <RiStockLine />,
+    //   },
+    //   {
+    //     name: 'color-mapping',
+    //     icon: <BsBarChart />,
+    //   },
+    //   {
+    //     name: 'pyramid',
+    //     icon: <GiLouvrePyramid />,
+    //   },
+    //   {
+    //     name: 'stacked',
+    //     icon: <AiOutlineBarChart />,
+    //   },
+    // ],
+  // },
 ];
 
 export const cartData = [
