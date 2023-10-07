@@ -10,6 +10,17 @@ import { TiTick } from 'react-icons/ti';
 import { GiLouvrePyramid } from 'react-icons/gi';
 import { GrLocation } from 'react-icons/gr';
 
+import Uniqlo from '../data/Uniqlo.png'
+import HM from '../data/HM.png'
+import Tesco from '../data/Tesco.png'
+import Odeon from '../data/Odeon.png'
+import KFC from '../data/KFC.png'
+import FGuys from '../data/FGuys.png'
+import PJohn from '../data/PJohn.png'
+import Amazon from '../data/Amazon.png'
+import Coop from '../data/Coop.png'
+import UEats from '../data/UEats.png'
+
 
 export const gridOrderImage = (props) => (
   <div>
@@ -1858,7 +1869,7 @@ export const transactions = [
     "description": "Clothing",
     "amount": "£40",
     "direction": "out",
-    "imlink": "./Uniqlo.png"
+    "imlink": Uniqlo
   },
   {
     "id": 2,
@@ -1867,7 +1878,7 @@ export const transactions = [
     "description": "Fashion",
     "amount": "£30",
     "direction": "out",
-    "imlink": "./HSBC.png"
+    "imlink": HM
   },
   {
     "id": 3,
@@ -1875,7 +1886,8 @@ export const transactions = [
     "company": "Tesco",
     "description": "Groceries",
     "amount": "£55",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Tesco
   },
   {
     "id": 4,
@@ -1883,7 +1895,8 @@ export const transactions = [
     "company": "Odeon",
     "description": "Cinema",
     "amount": "£28",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Odeon
   },
   {
     "id": 5,
@@ -1891,7 +1904,8 @@ export const transactions = [
     "company": "KFC",
     "description": "Fast Food",
     "amount": "£12",
-    "direction": "out"
+    "direction": "out",
+    "imlink": KFC
   },
   {
     "id": 6,
@@ -1899,7 +1913,8 @@ export const transactions = [
     "company": "Uber Eats",
     "description": "Food Delivery",
     "amount": "£20",
-    "direction": "out"
+    "direction": "out",
+    "imlink": UEats
   },
   {
     "id": 7,
@@ -1907,7 +1922,8 @@ export const transactions = [
     "company": "Papa John's",
     "description": "Pizza",
     "amount": "£18",
-    "direction": "out"
+    "direction": "out",
+    "imlink": PJohn
   },
   {
     "id": 8,
@@ -1915,7 +1931,8 @@ export const transactions = [
     "company": "Co-Op",
     "description": "Groceries",
     "amount": "£22",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Coop
   },
   {
     "id": 9,
@@ -1923,7 +1940,8 @@ export const transactions = [
     "company": "Five Guys",
     "description": "Burgers",
     "amount": "£24",
-    "direction": "out"
+    "direction": "out",
+    "imlink": FGuys
   },
   {
     "id": 10,
@@ -1931,7 +1949,8 @@ export const transactions = [
     "company": "Amazon",
     "description": "Books",
     "amount": "£45",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Amazon
   },
   {
     "id": 11,
@@ -1939,7 +1958,8 @@ export const transactions = [
     "company": "Uniqlo",
     "description": "Clothing",
     "amount": "£38",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Uniqlo
   },
   {
     "id": 12,
@@ -1947,7 +1967,8 @@ export const transactions = [
     "company": "H&M",
     "description": "Fashion",
     "amount": "£27",
-    "direction": "out"
+    "direction": "out",
+    "imlink": HM
   },
   {
     "id": 13,
@@ -1955,7 +1976,8 @@ export const transactions = [
     "company": "Tesco",
     "description": "Groceries",
     "amount": "£50",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Tesco
   },
   {
     "id": 14,
@@ -1963,7 +1985,8 @@ export const transactions = [
     "company": "Odeon",
     "description": "Cinema",
     "amount": "£32",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Odeon
   },
   {
     "id": 15,
@@ -1971,7 +1994,8 @@ export const transactions = [
     "company": "KFC",
     "description": "Fast Food",
     "amount": "£14",
-    "direction": "out"
+    "direction": "out",
+    "imlink": KFC
   },
   {
     "id": 16,
@@ -1979,7 +2003,8 @@ export const transactions = [
     "company": "Uber Eats",
     "description": "Food Delivery",
     "amount": "£18",
-    "direction": "out"
+    "direction": "out",
+    "imlink": UEats
   },
   {
     "id": 17,
@@ -1987,7 +2012,8 @@ export const transactions = [
     "company": "Papa John's",
     "description": "Pizza",
     "amount": "£16",
-    "direction": "out"
+    "direction": "out",
+    "imlink": PJohn
   },
   {
     "id": 18,
@@ -1995,7 +2021,8 @@ export const transactions = [
     "company": "Co-Op",
     "description": "Groceries",
     "amount": "£21",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Coop
   },
   {
     "id": 19,
@@ -2003,7 +2030,8 @@ export const transactions = [
     "company": "Five Guys",
     "description": "Burgers",
     "amount": "£23",
-    "direction": "out"
+    "direction": "out",
+    "imlink": FGuys
   },
   {
     "id": 20,
@@ -2011,9 +2039,11 @@ export const transactions = [
     "company": "Amazon",
     "description": "Electronics",
     "amount": "£90",
-    "direction": "out"
+    "direction": "out",
+    "imlink": Amazon
   }
-];
+]
+;
 
 
 export const scheduleData = [

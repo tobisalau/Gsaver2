@@ -4,6 +4,7 @@ import { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, Context
 import { transactions, contextMenuItems, ordersGrid } from '../data/dummy';
 import { Header } from '../components';
 
+
 const Transactions = () => {
   const editing = { allowDeleting: true, allowEditing: true };
   return (
