@@ -4,7 +4,6 @@ import { GoPrimitiveDot } from 'react-icons/go';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
-import { Button } from '@mui/material';
 
 import { Stacked, Pie, Button, LineChart, SparkLine } from '../components';
 import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
@@ -35,7 +34,6 @@ const Home = () => {
             >
               <BsCurrencyDollar />
             </button>
-            <Button/>
           </div>
           <div className="mt-6">
             <Button
