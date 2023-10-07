@@ -830,7 +830,7 @@ export const ordersGrid = [
     field: 'company',
     //headerText: 'Company',
     template: gridOrderImage,
-    textAlign: 'Center',
+    //textAlign: 'Center',
     width: '120',
   },
   {
@@ -1858,7 +1858,7 @@ export const transactions = [
     "description": "Clothing",
     "amount": "£40",
     "direction": "out",
-    "imlink": "/src/data/Uniqlo.png"
+    "imlink": "./Uniqlo.png"
   },
   {
     "id": 2,
@@ -1866,7 +1866,8 @@ export const transactions = [
     "company": "H&M",
     "description": "Fashion",
     "amount": "£30",
-    "direction": "out"
+    "direction": "out",
+    "imlink": "./HSBC.png"
   },
   {
     "id": 3,
